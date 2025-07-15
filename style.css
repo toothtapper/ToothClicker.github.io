@@ -1,0 +1,43 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  background: linear-gradient(to right, #d0f0ff, #ffe0f0);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.counter {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.tooth-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+#tooth {
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+#tooth:active {
+  transform: scale(0.95);
+}
+
+#reaction {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #666;
+}
